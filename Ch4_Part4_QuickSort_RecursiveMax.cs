@@ -22,15 +22,6 @@ namespace Ch4_Part4_QuickSort_RecursiveMax
         {
             Console.WriteLine(Max(new[] {  3,-10, 2, 5, 9, 8 }));
         }
-        
-
-        //private static int Max(IEnumerable<int> list)
-        //{
-        //   /// if (!list.Any()) throw new ArgumentException(nameof(list));
-        //    if (list.Count() == 1) return list.First();
-        //    if (list.Count() == 2) return list.First() > list.Skip(1).Take(1).First() ? list.First() : list.Skip(1).Take(1).First();
-        //    var sub_max = Max(list.Skip(1));
-        //    return list.First() > sub_max ? list.First() : sub_max;
-        //}
+   
     }
 }
