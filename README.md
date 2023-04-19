@@ -1,3 +1,3 @@
-# grokking-algorithms
+# grokking algorithms
 
 
